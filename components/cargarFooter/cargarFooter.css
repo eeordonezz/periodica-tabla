@@ -1,0 +1,87 @@
+#footer {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+#footer .div-redes{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+#footer .logo-scl {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#footer .logo-scl img{
+  width: 15rem;
+}
+#footer .redes {
+  display: flex;
+  gap: 3rem;
+}
+#footer .redes a img{
+  width: 2.5rem;
+}
+
+
+.fb{
+ 
+  padding: 8px;
+  border-radius: 50px;
+  color: rgb(0, 0, 0);
+}
+.tw{
+  
+  padding: 8px;
+  border-radius: 50px;
+  color: rgb(0, 0, 0);
+}
+.in{
+  
+  padding: 8px;
+  border-radius: 50px;
+  color: rgb(0, 0, 0);
+}
+.header{
+  height: 15px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+}
+.logotipo{
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+}
+.footer-informacion{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 40px;
+}
+.footer-informacion div{
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 5rem;
+}
+.footer-informacion div h2{
+  color: rgb(0, 0, 0);
+  padding: 10px 0;
+}
+.footer-informacion form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.footer-informacion input{
+  background: none;
+  border: solid 2px white;
+  padding: 10px 20px;
+}
+.footer-informacion button{
+  padding: 10px 20px;
+  background: white;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+}

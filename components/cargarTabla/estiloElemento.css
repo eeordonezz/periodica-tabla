@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.informacion {
+    width: 15rem;
+    height: 15rem;
+    margin: auto;
+    border: 0.01rem solid black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Roboto', sans-serif;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.5s forwards;
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.estiloElemento {
+    width: 15rem;
+    height: 15rem;
+    display: grid;
+    padding: 1rem;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.estiloElemento div:hover {
+    transform: scale(1.02);
+}
+
+.estiloElemento strong {
+}
+
+.estiloElemento1 ,strong{
+    grid-column-start: 3;
+    grid-row-start: 3;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.estiloSimbolo{
+    grid-column-start: 2;
+    grid-row-start: 2;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.estiloSimbolo2{
+    grid-column-start: 1;
+    grid-row-start: 1;
+    font-size: 1rem;
+    font-weight: 900;
+}
+
+.estiloSimbolo3{
+    grid-column-start: 3;
+    grid-row-start: 1;
+    font-size: 1rem;
+    font-weight: 900;
+}
+
+.estiloSimbolo4{
+    grid-column-start: 2;
+    grid-row-start: 3;
+    font-size: 1rem;
+    font-weight: 900;
+}
